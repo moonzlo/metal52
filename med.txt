@@ -1,0 +1,39 @@
+[vc_row][vc_column][vc_hoverbox image="195" primary_title="" hover_title="Решили сдать медь ?"]Мы с радостью купим у Вас лом меди любого объема и типа. Скупаем медный кабель цена за кг.[/vc_hoverbox][vc_empty_space height="10px"][vc_message message_box_style="solid-icon" message_box_color="orange" icon_fontawesome="fa fa-rub"]Цена на Медь сегодня <strong><span style="color: #000000;">от 355</span> </strong>рублей за килограмм.[/vc_message][vc_cta h2="Почему нужно сдать медь нам?" add_button="bottom" btn_title="Найти нас" btn_style="classic" btn_color="orange" btn_size="lg" btn_i_icon_fontawesome="fa fa-map-marker" btn_css_animation="bounceIn" btn_add_icon="true" btn_link="url:%2Fkontakty%2F|title:%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B||"]<span style="color: #000000;">В первую очередь наша компания обеспечивает выплаты любым удобным для вас способом. Расчет происходит сразу после оценки общей массы и качества принимаемого лома меди. Мы гарантируем высокую степень безопастности при проведении демонтажных работ по резке меди, если таковая потребуется. И, конечно, неоспоримым преимуществом нашей организации является возможность вывоза лома меди из любой точки Нижнего Новгорода и области.</span>
+
+<span style="color: #000000;">Вы так же можете привезти нам лом меди самостоятельно!</span>[/vc_cta][/vc_column][/vc_row][vc_row][vc_column width="1/2"][ultimate_heading main_heading="Сколько стоит кг меди"]
+<p style="text-align: left;"><span style="color: #000000;">Прежде всего обращаем ваше внимание, что актуальная цена на медь отображается в <strong>верхней</strong> части страницы. Медь на сегодняшней день является одним из самых популярных металлов, которые нам приходится перерабатывать. Еще в древности этот металл ценился за свои легкоплавкие свойства, тогда его добывали из руды.</span></p>
+[/ultimate_heading][/vc_column][vc_column width="1/2"][vc_single_image image="200" img_size="full"][/vc_column][/vc_row][vc_row][vc_column][ultimate_heading main_heading="Где сдать медь в Нижнем Новгороде ?"]<span style="color: #000000;"> У нас есть два пункта приема лома меди, находящиеся по адресу <a href="https://yandex.by/maps/-/CBUJuKQuOD">ул. Торфяная, 42 | ул. Новикова прибоя, 4/6</a> . Если вы не можете приехать сами, или объем лома меди ,который вы желаете сдать, очень велик, наши специалисты готовы приехать и помочь в транспортировке медного лома. </span>
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6ArVa-Sjgjp8oJViKrGQeSsvB8fdUf53&amp;lang=ru_RU&amp;scroll=true&amp;source=constructor" width="860" height="550" frameborder="0"></iframe>
+<h4 style="text-align: center;"><span style="color: #000000;">Интересный факт</span></h4>
+<blockquote><span style="color: #000000;"><strong>Более 50%</strong> всей меди во всем мире используют в качестве электрического проводника.</span></blockquote>
+[/ultimate_heading][vc_empty_space][/vc_column][/vc_row][vc_row][vc_column][vc_cta h2="Мы принимаем сплавы меди"]<span style="color: #000000;"><strong>Сплавы </strong>меди делятся на три группы, мы принимаем их все;</span>
+<ul>
+ 	<li><span style="color: #000000;">латуни;</span></li>
+ 	<li><span style="color: #000000;">бронзы;</span></li>
+ 	<li><span style="color: #000000;">сплавы меди с никелем.</span></li>
+</ul>
+<span style="color: #000000;"><strong>Области применения</strong> меди и медных сплавов:</span>
+<ul>
+ 	<li><span style="color: #000000;">электроизмерительное приборостроение;</span></li>
+ 	<li><span style="color: #000000;">электромашиностроение;</span></li>
+ 	<li><span style="color: #000000;">радиоэлектроника;</span></li>
+ 	<li><span style="color: #000000;">электротехническая отрасль;</span></li>
+ 	<li><span style="color: #000000;">изготовление медицинского оборудования;</span></li>
+ 	<li><span style="color: #000000;">производство бытовой техники;</span></li>
+ 	<li><span style="color: #000000;">художественно-прикладное искусство, декоративные предметы интерьера;</span></li>
+ 	<li><span style="color: #000000;">строительство.</span></li>
+</ul>
+[/vc_cta][ultimate_heading main_heading="Где взять медный лом ? "]
+<p style="text-align: left;"><span style="color: #000000;">В повседневной жизни большинство из нас не замечает, что медь содержится в огромном количестве бытовой техники. Мы принимаем медь в любом её виде, будь то стиральная машина, холодильник, или даже старый телевизор. Наиболее распространенными источниками меди являются:</span></p>
+
+<ol>
+ 	<li style="text-align: left;"><span style="color: #000000;">Самый простой способ – это <strong>разборка бытовых электроприборов</strong>, пришедших в негодность. Старый ламповый телевизор содержит до 1,5 кг этого цветного металла, в новых моделях масса красного золота меньше — около 0,5 кг.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;"><a href="/prinimaem/jelektrodvigateli/"><strong>Электродвигатели</strong> </a>холодильников, стиральных машин, генераторов имеют медную обмотку для преобразования электрического тока. Например, из двигателя холодильника можно извлечь до 950 грамм меди.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;">Электрические медные <a href="/prinimaem/jelektrokabel/"><strong>провода и кабели</strong></a> различной толщины – основной источник наиболее ценной категории вторичной меди.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;"><strong>Отходы производства</strong> – стружка, куски металла, оставшиеся при штамповке и вырубке.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;"><strong>Трубы</strong> кондиционерные, холодильные, медицинские для кислорода, водопроводные.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;"><strong>Теплообменники</strong> старых газовых колонок, газовые горелки.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;"><strong>Медные переходники и фитинги</strong>, использующиеся при монтаже водопроводной и отопительной системы.</span></li>
+ 	<li style="text-align: left;"><span style="color: #000000;"><strong>Старинные предметы</strong> утвари (самовары, посуда).</span></li>
+</ol>
+[/ultimate_heading][/vc_column][/vc_row]

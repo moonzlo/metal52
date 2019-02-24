@@ -1,0 +1,58 @@
+
+[vc_row][vc_column][vc_hoverbox image="183" primary_title="" hover_title="Сдать цветной лом"]Наша компания осуществляет покупку цветного лома любого вида и количества.[/vc_hoverbox][vc_empty_space height="10px"][/vc_column][/vc_row][vc_row][vc_column]<style type="text/css">
+.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr {background-color:#ffffff;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable tr:hover {background-color:#ffffff;}
+</style>
+
+<table class="tftable" border="1">
+<tr><th>Вид</th><th>Цена за КГ</th></tr>
+<tr><td><a href="/prinimaem/cvetnoj-lom/med/"><b>Медь цена за КГ</b><a></td><td>от <b>355</b> руб</td></tr>
+<tr><td><a href="#"><b>Колонка медная</b></td><td><b>300</b> руб</td></tr>
+<tr><td><a href="#"><b>Латунь</b></td><td><b>225</b> руб</td></tr>
+<tr><td><a href="#"><b>Алюминий</b></td><td><b>63</b>руб</td></tr>
+<tr><td><a href="#"><b>Алюминиевые банки</b></td><td><b>45</b>руб</td></tr>
+<tr><td><a href="#"><b>Титан</b></td><td><b>115</b> руб</td></tr>
+<tr><td><a href="#"><b>Нихром</b></td><td><b>200</b> руб</td></tr>
+<tr><td><a href="#"><b>Свинец</b></td><td><b>85</b> руб</td></tr>
+<tr><td><a href="#"><b>Свинец(кабель)</b></td><td><b>90</b> руб</td></tr>
+<tr><td><a href="#"><b>Цинк</b></td><td><b>60</b> руб</td></tr>
+<tr><td><a href="#"><b>Лом нержавеющий стали (никельсодержащий)</b></td><td><b>55</b> руб</td></tr>
+<tr><td><a href="#"><b>Лом кабеля медного и алюминиевого , как очищенный так и в оплетке</b></td><td>договорная</td></tr>
+<tr><td><a href="https://metal52.ru/prinimaem/jelektrodvigateli/"><b>Электродвигатели</b></td><td>от <b>15</b> руб</td></tr>
+<tr><td><a href="#"><b>Магний</b></td><td>от <b>20</b> руб</td></tr>
+<tr><td><a href="#"><b>Трансформаторы</b></td><td>договорная</td></tr>
+<tr><td><a href="https://metal52.ru/prinimaem/akkumuljatory/"><b>Аккумуляторы</b></td><td><b>48</b> руб</td></tr>
+<tr><td><a href="#"><b>Прокат медный, бронзовый, латунный, алюминиевый, нержавеющий</b></td><td>договорная</td></tr>
+<tr><td><a href="#"><b>Никель</b></td><td>договоная</td></tr>
+<tr><td><a href="https://metal52.ru/prinimaem/cvetnoj-lom/med/"><b>Медная стружка</b></td><td><b><b>250</b> руб</td></tr>
+<tr><td><a href="#"><b>Латунная стружка</b></td><td><b>150</b> руб</td></tr>
+<tr><td><a href="#"><b>Алюминиевая стружка</b></td><td><b>30</b> руб</td></tr>
+<tr><td><a href="#"><b>Быстрорез Р6М5</b></td><td>от <b>80</b> руб</td></tr>
+<tr><td><a href="#"><b>ВК, ТК</b></td><td>от <b>600</b> руб</td></tr>
+<tr><td><a href="#"><b>Олово</b></td><td>от <b>200 до 800</b> руб</td></tr>
+<tr><td><a href="#"><b>Титан</b></td><td>от <b>115</b> руб</td></tr>
+<tr><td><a href="#"><b>Вольфрам, молибден, ванадий</b></td><td>договорная</td></tr>
+</table>
+[vc_raw_html]JTNDaWZyYW1lJTIwc3JjJTNEJTIyaHR0cHMlM0ElMkYlMkZ5YW5kZXgucnUlMkZtYXAtd2lkZ2V0JTJGdjElMkYlM0Z1bSUzRGNvbnN0cnVjdG9yJTI1M0E2QXJWYS1TamdqcDhvSlZpS3JHUWVTc3ZCOGZkVWY1MyUyNmFtcCUzQmxhbmclM0RydV9SVSUyNmFtcCUzQnNjcm9sbCUzRHRydWUlMjZhbXAlM0Jzb3VyY2UlM0Rjb25zdHJ1Y3RvciUyMiUyMHdpZHRoJTNEJTIyODYwJTIyJTIwaGVpZ2h0JTNEJTIyNTUwJTIyJTIwZnJhbWVib3JkZXIlM0QlMjIwJTIyJTNFJTNDJTJGaWZyYW1lJTNF[/vc_raw_html][vc_cta h2="Лучшие цены на цветмет в Нижнем Новгороде "]<span style="color: #000000;">Наша компания стремится обеспечить конкурентоспособные цены на цветной лом. Мы оказываем весь спектр услуг по демонтажу металлоконструкций <strong>любого</strong> типа, с последующей транспортировкой до наших пунктов. Цена на цветной лом рассчитывается <strong>на месте,</strong> исходя из объемов и качества лома.</span>
+<h4 style="text-align: center;"><span style="color: #000000;">Позвоните нам, чтобы рассчитать стоимость </span></h4>
+<h4 style="text-align: center;"><span style="color: #000000;"><strong>+7(920)003-70-37</strong></span></h4>
+&nbsp;
+
+&nbsp;
+
+[/vc_cta][vc_column_text]Цветмет - довольно распространенный материал для изготовления бытовой техники и предметов постоянного пользования, которые есть в каждом доме. Рано или поздно металлическая техника приходит в негодность. Что же с ней делать? – Есть альтернативное решение – обратиться в пункт приема цветных металлов и сдать все ненужные металлические отходы.
+
+Цветмет: медь, алюминий, латунь – все они стоят довольно дорого, и если у вас залежались металлические отходы, вы можете позвонить нам:
+- Мы самостоятельно <strong>загрузим</strong> металл
+- Удобный <strong>расчет</strong> на месте
+- Специалисты выполнят работы в предельно <strong>короткие сроки</strong>.
+Сдать медь в Нижнем Новгороде по выгодным ценам можно только у нас! Прием чугуна так же осуществляется в нашей компании.
+
+Мы – <strong>единственные</strong> представители среди пунктов приема цветных металлов, которые работают без посредников.
+
+Благодаря этому мы экономим средства, а вы получаете гораздо больше за сданный металлолом. Расценки за лом цветного металла и прочую информацию вы можете узнать по телефону, или же в пункте приема цветных металлов.[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_cta h2="Бытовая техника в лом"]Принимаем любую бытовую технику в лом. Производим расчет и оценку стоимости на месте. При необходимости проводим демонтажные работы и вывозим.[/vc_cta][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]Мы осуществляем приёмку цветных металлов в лом, согласно действующему законодательству, наша компания имеет все необходимые лицензии и сертификаты. У нас вы можете сдать цветмет по выгодной цене за кг. Если вас интересует, сколько стоит сдать цветной лом, то вам необходимо ознакомиться с нашим прайс-листом, в котором отражены самые актуальные цены на металлоломом в Нижнем Новгороде.
+
+Цветной лом является самым популярным металлом в быту, и вы, скорее всего, не подозреваете, какую ценность может представлять старый медный кабель, который возможно сдать в лом. Позвоните нам, и мы вышлем специалиста, которой составит точную стоимость вашего лома. Удобнее всего металлом измерять в килограммах, поэтому все, что понадобится - взвесить лом и определить, нет ли в нем примесей инородных металлов и сплавов.[/vc_column_text][vc_single_image image="183" img_size="full" alignment="center" title="сдавайте цветной лом у нас ! "][/vc_column][/vc_row]
