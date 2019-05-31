@@ -1,6 +1,8 @@
 import requests, json
 from bs4 import BeautifulSoup
 
+# from yandex_handbook import main as yandex
+
 def get_cvetmet():
     """Парсит ткущие цены на цветмет, формирует словарь Медь:340"""
     b = requests.Session()
