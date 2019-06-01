@@ -14,6 +14,11 @@ def get_token(token_pach: str) -> str:
     return token
 
 
+def soup_obj(html: str) -> "class 'bs4.BeautifulSoup'":
+    soup = bs(html, 'html.parser')
+    return soup
+
+
 TOKEN = get_token('token.txt')
 
 
@@ -64,49 +69,68 @@ def post_request(value: dict, url: str) -> str:  # return status_code
         return str(error)
 
 
-def get_price() -> dict:
+def get_price(soup: "class 'bs4.BeautifulSoup'") -> dict:
     """
     Служит для получения актуальнго прайса цена на цветные металлы.
-    :param url: ссылка на страницу https://metal52.ru/prinimaem/cvetnoj-lom/
+    :param soup: объект супа для работы с парсенгом, использует html
     :return: dict = словарь из название типов металла и его цены | {'Медь':320}
     """
-    url = 'https://metal52.ru/prinimaem/cvetnoj-lom/'
-    soup = bs(get_request(url), 'html.parser')
+    a = soup.find_all('tr')
 
-    a = soup.find('table', class_='tftable')
-    b = a.find_all('b')
-    metals = ['Медь', 'Колонка медная', 'Латунь', 'Алюминий', 'Алюминиевые банки', 'Титан', 'Нихром', 'Свинец',
-              'Свинец(кабель)', 'Цинк', 'Нержа', 'Электродвигатели', 'Магний', 'Аккумуляторы', 'Медная стружка',
-              'Латунная стружка', 'Алюминиевая стружка', 'Быстрорез Р6М5', 'ВК, ТК', ]
+    names = []
+    price = []
 
-    values = []
-    for i in b:
-        ab = i.text
-        if ab.isdigit():
-            values.append(i.text)
+    for i in a[1:]:
+        value = i.find('a')
+        names.append(value.text)
+        prices = str(i.find_all('td')[1].text).split()
+        if len(prices) > 1:
+            price.append(prices[0])
+        else:
+            price.append('None')
 
     data = {}
-    for x, y in zip(metals, values):
+    for x, y in zip(names, price):
         data.update({x: y})
 
     return data
 
 
-def color_metal_changer(value: dict, data: list) -> str:
+def color_metal_changer(html: str, value: dict, data: dict, soup: "class 'bs4.BeautifulSoup'") -> str:
     """
-    Ожидается :param data = list = список со списком названий которые нужно изменить | [[Медь:320][Латунь:120]]
-    Обновляет цены на странице с цветным ломам
-    :param value: dict = словарь с наименованием металлов и цен.
-    :return: str = статус успеха операции | возвращается из post_request
+    Данная функция служит для генерация нового html кода страницы с цветным ломом.
+    Задача функции заменить старые цены на новые.
+    :param html: str   | Валидный код текущего состояния страницы с цветным ломом.
+    :param value: dict | Словарь из текущих цен на цветной лом в формате {'Медь':'330'}
+    :param data: dict  | Словарь с ключами которые нужно заменить, каждый ключ это индекс ключа value
+    :param soup: class | Объект bs4 для парсинга стараницы, в изоляции кушает меньше памяти.
+    :return: html: str | Возвращает исправленный html код который нужно передать в get_request
     """
-    for metal in data:
-        price_data = metal[0].split(':')  # 0 = Название металла | 1 = Новая цена
-        if value.get(price_data[0]) != price_data[1]:
-            value.update({price_data[0]: price_data[1]})
 
-    # url = 'https://metal52.ru/prinimaem/cvetnoj-lom/'
-    # status = post_request(value, url)
-    return value
+    table_str = soup.find_all('tr')
+    metal_name = list(value.keys())  # Ключи = Имена металлов.
+    index_name = data.keys()  # Ключи = Индексы имён.
+    update_data = {}
+
+    for i in index_name:
+        # current_price = value.get(metal_name[i])
+        update_data.update({metal_name[i]: data.get(i)})
+
+    for html_str in table_str:  # проходимся по всем строка таблицы.
+        current_line = html_str  # html код текущей строки таблицы.
+        for m_name in update_data:  # проходим по всем ключам/именам металлов которые нужно заменить.
+
+            if str(m_name) in str(current_line):
+                """
+                Прежде всего нужно заменить стару цену на новую, а потом всё строку нового кода вставить
+                вместо старого. Такой подход гарантирует что в случае появление одинаковых цен в таблице
+                код будет изменяться только нужная. P.S первая реализация просто делал замену цены,
+                по этому возникали ситуации кода несколько разных типов лома стояли одинаково =) 
+                """
+                current_price = str(current_line).replace(value.get(m_name), update_data.get(m_name))
+                html = str(html).replace(str(current_line), current_price)
+
+    return html
 
 
 def med_changer(value: int) -> str:
@@ -125,8 +149,12 @@ def accumulator_changer(value: int) -> str:
     """
 
 
-test_data = [['Медь:342'], ['Алюминий:56']]
-test = color_metal_changer(get_price(), test_data)
-print(test)
+index_name = {0: '330', 1: '220'}
+html1 = get_request('https://metal52.ru/prinimaem/cvetnoj-lom/')
+
+sup = soup_obj(html1)
+price = get_price(sup)
+test = color_metal_changer(html, price, index_name, sup)
+print(color_metal_changer.__doc__)
 
 # post https://metal52.ru/wp-json/wp/v2/pages/1004
