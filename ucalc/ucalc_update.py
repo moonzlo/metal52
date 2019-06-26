@@ -5,20 +5,24 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 
 
-def ucalc_changer(new_price: int, config) -> bool:
+def ucalc_changer(new_price: int, config):
+    """
+    Служит для обновления цены на акколмуяторы внутри калькулятора реализованного на сервесе ucalc.
+    :param new_price: новая цена за кг акб.
+    :param config: конифгурация среды в которой запусукается скрипт.
+    :return: возваращет в идеальном случае True в случае ошибки возвращает её трэйсбэк.
+    """
 
     def linux_config():
         options = webdriver.ChromeOptions()
-        # options.add_argument('headless')  # Без GUI
-        # options.add_argument('--no-sandbox')
-        # options.add_argument('--disable-dev-shm-usage')
-        # options.add_argument(r"user-data-dir=/home/moonz/profile")
+        options.add_argument('headless')  # Без GUI
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
         driver = webdriver.Chrome(executable_path="/home/moonz/selenium/chromedriver", chrome_options=options)
         return driver
 
     def windows_config():
         options = webdriver.ChromeOptions()
-        options.add_argument(r"user-data-dir=/home/moonz/profile")
         driver = webdriver.Chrome(executable_path="/home/moonz/chromedriver", chrome_options=options)
         return driver
 
@@ -49,6 +53,7 @@ def ucalc_changer(new_price: int, config) -> bool:
 
     except Exception as error:
         print(f'Ошибка в локальном скупе сленеиум: {error}')
+        return f'Произошла ошибка при обновлении цены на АКБ внутри калькулятора | {error}'
 
     finally:
         browser.close()

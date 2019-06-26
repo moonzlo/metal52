@@ -1,18 +1,20 @@
 import requests, json
 from bs4 import BeautifulSoup as bs
+from ucalc import ucalc_update
+
 
 # медь = https://metal52.ru/wp-json/wp/v2/pages/192
 # цветной = https://metal52.ru/wp-json/wp/v2/pages/131
 
 
 def get_token(token_pach: str) -> str:
-    #https://metal52.ru/wp-json/jwt-auth/v1/token?username=metal52&password=*****
+    # POST https://metal52.ru/wp-json/jwt-auth/v1/token?username=metal52&password=*****
     """
     Читает текстоый файл с ключом от REST API
     :param token_pach: str = путь к файлу .txt
     :return: str = возвращает строку с токеном.
     """
-    with open(token_pach, 'r') as file:
+    with open(token_pach, 'r', encoding='utf-8') as file:
         token = file.read()
 
     return token
@@ -145,7 +147,7 @@ def color_metal_changer(value: dict, data: dict, soup: "class 'bs4.BeautifulSoup
     index_name = data.keys()          # Ключи = Индексы имён.
     update_data = {}                  # Название лома : новая цена.
 
-    with open('color_metal_changer.html', 'r') as file:
+    with open('color_metal_changer.html', 'r', encoding='utf-8') as file:
         shablon = file.read()         # Валидный исходный код для страницы.
 
     for i in index_name:              # Формирование словаря с новыми ценами.
@@ -211,7 +213,7 @@ def accumulator_changer(value: int) -> str:
     pattern = '<span style="color: #000000;"> <strong>38</strong> </span>рублей.'
     good_data = f'<span style="color: #000000;"> <strong>{value}</strong> </span>рублей.'
 
-    with open('akkumuljatory.html', 'r') as file:
+    with open('akkumuljatory.html', 'r', encoding='utf-8') as file:
         old_data = file.read()
 
     new_data = {'content': old_data.replace(pattern, good_data),
@@ -235,6 +237,6 @@ def accumulator_changer(value: int) -> str:
 # price = get_price(sup)
 # test = color_metal_changer(price, index_name, sup)
 # print(test)
-accumulator_changer(666)
+ucalc_update.ucalc_changer(39, 'linux')
 
 # post https://metal52.ru/wp-json/wp/v2/pages/1004
