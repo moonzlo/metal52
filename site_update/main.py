@@ -1,22 +1,48 @@
+import sys
+sys.path.append("..")
+
 import requests, json
 from ucalc import ucalc_update
 from lxml import html, etree
 
 
-def get_token(token_pach: str) -> str:
-    # POST https://metal52.ru/wp-json/jwt-auth/v1/token?username=metal52&password=*****
-    """
-    Читает текстоый файл с ключом от REST API
-    :param token_pach: str = путь к файлу .txt
-    :return: str = возвращает строку с токеном.
-    """
-    with open(token_pach, 'r', encoding='utf-8') as file:
-        token = file.read()
-
-    return token
+def token_getter(password: str) -> str:
+    #https://metal52.ru/wp-json/jwt-auth/v1/token?username=metal52&password=XriNDwugYq1yFn2*by
+    
+    data = requests.post(f'https://metal52.ru/wp-json/jwt-auth/v1/token?username=metal52&password={password}').json()
+    tk = data.get('token')
+    return f'Bearer {tk}'
 
 
-TOKEN = get_token('token.txt')
+def token_validator(token:str) -> bool:
+    print(token)
+    session = requests.Session()
+    header = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 '
+                      '(KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+        'Authorization': '1',
+        'Content-Type': 'application/json; charset=utf-8'}
+
+    data = session.get('https://metal52.ru/wp-json/wp/v2/pages/1004', headers=header).json()
+
+    if data.get('data'):
+        raise Exception(f"update token errror | status code: {data.get('data')['status']}")
+
+    else:
+        return True
+
+
+def get_token(password: str) -> str:
+
+    valid = token_validator(token_getter(password))
+
+    if valid:
+        print('Всё ок')
+
+    return valid
+
+
+TOKEN = get_token('21')
 
 
 def lxml_tree() -> list:
@@ -231,11 +257,11 @@ def accumulator_changer(value: int) -> str:
     return send
 
 
-index_name = {0: '350', 1: '211'}
-price = get_price()
-test = color_metal_changer(price, index_name)
-print(test)
-# ucalc_update.ucalc_changer(39, 'linux')
+# index_name = {0: '350', 1: '211'}
+# price = get_price()
+# test = color_metal_changer(price, index_name)
+# print(test)
+# # ucalc_update.ucalc_changer(39, 'linux')
 
-# post https://metal52.ru/wp-json/wp/v2/pages/1004
+# # post https://metal52.ru/wp-json/wp/v2/pages/1004
 
